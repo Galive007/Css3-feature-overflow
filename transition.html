@@ -14,11 +14,13 @@
             background: seagreen;
             
             /* transition-property/transition-duration/transition-timing-function/transition-delay */
-            transition: width 5s linear .2s, background-color 5s ease .3s;
+            /* transition: width 5s linear .2s, background-color 5s ease .3s; */
+            transition: transform 3s linear;
         }
         .box:hover{
-            width: 400px;
-            background-color: palevioletred;
+            transform: scale(1) rotate(45deg) translateX(280px);
+            /* width: 400px;
+            background-color: palevioletred; */
         }
     </style>
 </head>
