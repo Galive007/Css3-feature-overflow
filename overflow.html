@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Over-Flow</title>
+    <style>
+        .inner{
+            width: 30%;
+            height: 200px;
+            padding: 20px;
+            overflow: scroll;
+            border: 10px solid tomato;
+            margin-bottom: 25px;
+            overflow-x: auto;
+        }
+        .box-tittle1{
+            border: 5px solid salmon;
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: ellipsis; */
+            text-overflow: clip;
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="main">
+        <div class="outer">
+            <div class="inner">
+                <h2 title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos dolorum dolorem illum, quas consequuntur! Obcaecati perspiciatis unde consequuntur modi!" class="box-tittle1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos dolorum dolorem illum, quas consequuntur! Obcaecati perspiciatis unde consequuntur modi!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi porro assumenda unde recusandae tempora fugit? Tenetur, quis illo? Amet cum molestiae sit provident rerum doloribus maxime voluptate accusantium corrupti veniam consequuntur veritatis laboriosam sed quos modi labore, autem odit at ea ratione numquam eaque dolorum! Ipsam aperiam eveniet nobis blanditiis deserunt magni sapiente, consequatur dolores itaque mollitia rerum laboriosam tenetur nihil possimus ducimus culpa optio quia? Nobis excepturi mollitia quam ipsum esse reiciendis praesentium error, asperiores similique deleniti eos nisi vero iure magni dignissimos labore iusto. Obcaecati dignissimos assumenda cupiditate nostrum culpa, numquam ea deleniti unde odit ex? Quasi fuga vero ipsam magni in, expedita debitis. Quasi quos cumque itaque fugit commodi. Et hic perspiciatis cupiditate voluptatum cum vitae nostrum, ducimus labore esse natus eveniet molestiae quisquam temporibus ut nemo maiores eum velit voluptate repellendus placeat nesciunt qui provident reprehenderit. Incidunt nemo, laboriosam quod excepturi officiis assumenda numquam non quidem cupiditate, iusto blanditiis quia molestias repellat, iure fugiat expedita vero quasi nobis itaque. Recusandae, saepe earum repellendus aliquid voluptatum odio distinctio? Corporis minus assumenda officiis! Id illum quaerat adipisci itaque quidem voluptas sequi modi harum exercitationem dolor. Esse perspiciatis consequuntur dignissimos repellat quae doloribus expedita quod! Odit, suscipit dicta?</p>
+            </div>
+            <div class="inner">
+                <h2 class="box-tittle2">Box-2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi porro assumenda unde recusandae tempora fugit? Tenetur, quis illo? Amet cum molestiae sit provident rerum doloribus maxime voluptate accusantium corrupti veniam consequuntur veritatis laboriosam sed quos modi labore, autem odit at ea ratione numquam eaque dolorum! Ipsam aperiam eveniet nobis blanditiis deserunt magni sapiente, consequatur dolores itaque mollitia rerum laboriosam tenetur nihil possimus ducimus culpa optio quia? Nobis excepturi mollitia quam ipsum esse reiciendis praesentium error, asperiores similique deleniti eos nisi vero iure magni dignissimos labore iusto. Obcaecati dignissimos assumenda cupiditate nostrum culpa, numquam ea deleniti unde odit ex? Quasi fuga vero ipsam magni in, expedita debitis. Quasi quos cumque itaque fugit commodi. Et hic perspiciatis cupiditate voluptatum cum vitae nostrum, ducimus labore esse natus eveniet molestiae quisquam temporibus ut nemo maiores eum velit voluptate repellendus placeat nesciunt qui provident reprehenderit. Incidunt nemo, laboriosam quod excepturi officiis assumenda numquam non quidem cupiditate, iusto blanditiis quia molestias repellat, iure fugiat expedita vero quasi nobis itaque. Recusandae, saepe earum repellendus aliquid voluptatum odio distinctio? Corporis minus assumenda officiis! Id illum quaerat adipisci itaque quidem voluptas sequi modi harum exercitationem dolor. Esse perspiciatis consequuntur dignissimos repellat quae doloribus expedita quod! Odit, suscipit dicta?</p>
+            </div>
+        </div>
+        
+    </section>
 </body>
 </html>
